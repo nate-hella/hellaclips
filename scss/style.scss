@@ -1,0 +1,26 @@
+/*
+Theme Name: Hellaclips
+Theme URI: http://hellaclips.com
+Author: nickvruiz
+Author URI: http://nickvruiz.com/
+Description: Video site
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import "compass/css3/background-size";
+@import "compass/css3/transition";
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
+@import "compass/css3/transform";
+
+@import "partials/mixins";
+@import "base";
+@import "partials/auth";
+@import "partials/header";
+@import "partials/posts";
+@import "partials/slider";
+@import "partials/footer";
+@import "page";
+@import "single";

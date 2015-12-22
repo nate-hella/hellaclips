@@ -1,0 +1,75 @@
+
+<runscript>
+
+	<setvar name="hellahype1_name" value="h1" />
+	<setvar name="hellahype1_thumb" value="$(hellacmsbitmapsdirURL)hella1.jpg" />
+	<setvar name="hellahype1_sharelink" value="" />
+	<setvar name="hellahype1_infolink" value=""   />
+	<setvar name="hellahype1_comment" value="comment 1" />
+	<setvar name="hellahype1_url" value="https://www.hellaclips.com/hella-hype/skate-fast-skate-furious/"   />
+
+	<setvar name="hellahype2_name" value="" />
+	<setvar name="hellahype2_thumb" value="$(hellacmsbitmapsdirURL)hella1.jpg" />
+	<setvar name="hellahype2_sharelink" value="" />
+	<setvar name="hellahype2_infolink" value=""   />
+	<setvar name="hellahype2_comment" value="comment 2" />
+	<setvar name="hellahype2_url" value="https://www.hellaclips.com/hella-hype/skate-fast-skate-furious/"   />
+
+	<setvar name="hellahype3_name" value="" />
+	<setvar name="hellahype3_thumb" value="$(hellacmsbitmapsdirURL)hella1.jpg" />
+	<setvar name="hellahype3_sharelink" value="" />
+	<setvar name="hellahype3_infolink" value=""   />
+	<setvar name="hellahype3_comment" value="comment 3" />
+	<setvar name="hellahype3_url" value="https://www.hellaclips.com/hella-hype/skate-fast-skate-furious/"   />
+
+	<setvar name="hellahype4_name" value="" />
+	<setvar name="hellahype4_thumb" value="$(hellacmsbitmapsdirURL)hella1.jpg" />
+	<setvar name="hellahype4_sharelink" value="" />
+	<setvar name="hellahype4_infolink" value=""   />
+	<setvar name="hellahype4_comment" value="comment 5" />
+	<setvar name="hellahype4_url" value="https://www.hellaclips.com/hella-hype/skate-fast-skate-furious/"   />
+
+	<setvar name="hellahype5_name" value="" />
+	<setvar name="hellahype5_thumb" value="$(hellacmsbitmapsdirURL)hella1.jpg" />
+	<setvar name="hellahype5_sharelink" value="" />
+	<setvar name="hellahype5_infolink" value=""   />
+	<setvar name="hellahype5_comment" value="5" />
+	<setvar name="hellahype5_url" value="https://www.hellaclips.com/hella-hype/skate-fast-skate-furious/"   />
+
+	<setvar name="hellahype6_name" value="" />
+	<setvar name="hellahype6_thumb" value="$(hellacmsbitmapsdirURL)hella1.jpg" />
+	<setvar name="hellahype6_sharelink" value="" />
+	<setvar name="hellahype6_infolink" value=""   />
+	<setvar name="hellahype6_comment" value="6" />
+	<setvar name="hellahype6_url" value="https://www.hellaclips.com/hella-hype/skate-fast-skate-furious/"   />
+
+	<setvar name="hellahype7_name" value="" />
+	<setvar name="hellahype7_thumb" value="$(hellacmsbitmapsdirURL)hella1.jpg" />
+	<setvar name="hellahype7_sharelink" value="" />
+	<setvar name="hellahype7_infolink" value=""   />
+	<setvar name="hellahype7_comment" value="7" />
+	<setvar name="hellahype7_url" value="https://www.hellaclips.com/hella-hype/skate-fast-skate-furious/"   />
+
+	<setvar name="hellahype8_name" value="" />
+	<setvar name="hellahype8_thumb" value="$(hellacmsbitmapsdirURL)hella1.jpg" />
+	<setvar name="hellahype8_sharelink" value="" />
+	<setvar name="hellahype8_infolink" value=""   />
+	<setvar name="hellahype8_comment" value="8" />
+	<setvar name="hellahype8_url" value="https://www.hellaclips.com/hella-hype/skate-fast-skate-furious/"   />
+
+	<setvar name="hellahype9_name" value="" />
+	<setvar name="hellahype9_thumb" value="$(hellacmsbitmapsdirURL)hella1.jpg" />
+	<setvar name="hellahype9_sharelink" value="" />
+	<setvar name="hellahype9_infolink" value=""   />
+	<setvar name="hellahype9_comment" value="9" />
+	<setvar name="hellahype9_url" value="https://www.hellaclips.com/hella-hype/skate-fast-skate-furious/"   />
+
+	<setvar name="hellahype10_name" value="" />
+	<setvar name="hellahype10_thumb" value="$(hellacmsbitmapsdirURL)hella1.jpg" />
+	<setvar name="hellahype10_sharelink" value="" />
+	<setvar name="hellahype10_infolink" value=""   />
+	<setvar name="hellahype10_comment" value="10" />
+	<setvar name="hellahype10_url" value="https://www.hellaclips.com/hella-hype/skate-fast-skate-furious/"   />
+
+
+</runscript>

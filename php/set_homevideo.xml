@@ -1,0 +1,185 @@
+
+<runscript>
+
+	<setvar name="video2_name" value="94548" />
+	<setvar name="video2_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/10/Screen-shot-2015-10-29-at-7.50.14-PM-197x135.png" />
+	<setvar name="video2_sharelink" value=""  />
+	<setvar name="video2_infolink" value=""   />
+	<setvar name="video2_comment" value="" />
+	<setvar name="video2_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video2_action" value="gotokalturavideo"   />
+	<setvar name="video2_sortorder" value="2"   />
+
+	<setvar name="video3_name" value="94068" />
+	<setvar name="video3_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/10/Screen-shot-2015-10-26-at-2.53.47-AM-197x135.png" />
+	<setvar name="video3_sharelink" value=""  />
+	<setvar name="video3_infolink" value=""   />
+	<setvar name="video3_comment" value="" />
+	<setvar name="video3_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video3_action" value="gotokalturavideo"   />
+	<setvar name="video3_sortorder" value="3"   />
+
+	<setvar name="video4_name" value="93019" />
+	<setvar name="video4_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/10/Screen-shot-2015-10-16-at-12.24.48-AM-197x135.png" />
+	<setvar name="video4_sharelink" value=""  />
+	<setvar name="video4_infolink" value=""   />
+	<setvar name="video4_comment" value="" />
+	<setvar name="video4_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video4_action" value="gotokalturavideo"   />
+	<setvar name="video4_sortorder" value="4"   />
+
+	<setvar name="video5_name" value="92866" />
+	<setvar name="video5_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/10/Screen-shot-2015-10-14-at-11.02.39-PM-197x135.png" />
+	<setvar name="video5_sharelink" value=""  />
+	<setvar name="video5_infolink" value=""   />
+	<setvar name="video5_comment" value="" />
+	<setvar name="video5_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video5_action" value="gotokalturavideo"   />
+	<setvar name="video5_sortorder" value="5"   />
+
+	<setvar name="video6_name" value="92472" />
+	<setvar name="video6_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/10/Screen-shot-2015-10-11-at-10.23.04-PM-197x135.png" />
+	<setvar name="video6_sharelink" value=""  />
+	<setvar name="video6_infolink" value=""   />
+	<setvar name="video6_comment" value="" />
+	<setvar name="video6_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video6_action" value="gotokalturavideo"   />
+	<setvar name="video6_sortorder" value="6"   />
+
+	<setvar name="video7_name" value="91674" />
+	<setvar name="video7_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/10/Screen-shot-2015-10-05-at-1.23.11-PM-197x135.png" />
+	<setvar name="video7_sharelink" value=""  />
+	<setvar name="video7_infolink" value=""   />
+	<setvar name="video7_comment" value="" />
+	<setvar name="video7_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video7_action" value="gotokalturavideo"   />
+	<setvar name="video7_sortorder" value="7"   />
+
+	<setvar name="video8_name" value="91469" />
+	<setvar name="video8_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/10/Screen-shot-2015-10-04-at-12.09.54-PM-197x135.png" />
+	<setvar name="video8_sharelink" value=""  />
+	<setvar name="video8_infolink" value=""   />
+	<setvar name="video8_comment" value="" />
+	<setvar name="video8_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video8_action" value="gotokalturavideo"   />
+	<setvar name="video8_sortorder" value="8"   />
+
+	<setvar name="video9_name" value="91182" />
+	<setvar name="video9_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/10/Screen-shot-2015-10-01-at-2.32.32-PM-197x135.png" />
+	<setvar name="video9_sharelink" value=""  />
+	<setvar name="video9_infolink" value=""   />
+	<setvar name="video9_comment" value="" />
+	<setvar name="video9_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video9_action" value="gotokalturavideo"   />
+	<setvar name="video9_sortorder" value="9"   />
+
+	<setvar name="video10_name" value="90458" />
+	<setvar name="video10_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/09/vincent_NYK-197x135.jpg" />
+	<setvar name="video10_sharelink" value=""  />
+	<setvar name="video10_infolink" value=""   />
+	<setvar name="video10_comment" value="" />
+	<setvar name="video10_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video10_action" value="gotokalturavideo"   />
+	<setvar name="video10_sortorder" value="10"   />
+
+	<setvar name="video11_name" value="88519" />
+	<setvar name="video11_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/09/Screen-shot-2015-09-09-at-9.21.50-PM-197x135.png" />
+	<setvar name="video11_sharelink" value=""  />
+	<setvar name="video11_infolink" value=""   />
+	<setvar name="video11_comment" value="" />
+	<setvar name="video11_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video11_action" value="gotokalturavideo"   />
+	<setvar name="video11_sortorder" value="11"   />
+
+	<setvar name="video12_name" value="87731" />
+	<setvar name="video12_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/09/Screen-shot-2015-09-02-at-9.42.19-PM-197x135.png" />
+	<setvar name="video12_sharelink" value=""  />
+	<setvar name="video12_infolink" value=""   />
+	<setvar name="video12_comment" value="" />
+	<setvar name="video12_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video12_action" value="gotokalturavideo"   />
+	<setvar name="video12_sortorder" value="12"   />
+
+	<setvar name="video13_name" value="87557" />
+	<setvar name="video13_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/09/Screen-shot-2015-09-01-at-10.00.54-PM-197x135.png" />
+	<setvar name="video13_sharelink" value=""  />
+	<setvar name="video13_infolink" value=""   />
+	<setvar name="video13_comment" value="" />
+	<setvar name="video13_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video13_action" value="gotokalturavideo"   />
+	<setvar name="video13_sortorder" value="13"   />
+
+	<setvar name="video14_name" value="85124" />
+	<setvar name="video14_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/08/Screen-shot-2015-08-13-at-10.00.01-PM-197x135.png" />
+	<setvar name="video14_sharelink" value=""  />
+	<setvar name="video14_infolink" value=""   />
+	<setvar name="video14_comment" value="" />
+	<setvar name="video14_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video14_action" value="gotokalturavideo"   />
+	<setvar name="video14_sortorder" value="14"   />
+
+	<setvar name="video15_name" value="84576" />
+	<setvar name="video15_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/08/Screen-shot-2015-08-09-at-10.41.31-PM-197x135.png" />
+	<setvar name="video15_sharelink" value=""  />
+	<setvar name="video15_infolink" value=""   />
+	<setvar name="video15_comment" value="" />
+	<setvar name="video15_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video15_action" value="gotokalturavideo"   />
+	<setvar name="video15_sortorder" value="15"   />
+
+	<setvar name="video16_name" value="83887" />
+	<setvar name="video16_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/08/Screen-shot-2015-08-03-at-11.28.13-AM-197x135.png" />
+	<setvar name="video16_sharelink" value=""  />
+	<setvar name="video16_infolink" value=""   />
+	<setvar name="video16_comment" value="" />
+	<setvar name="video16_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video16_action" value="gotokalturavideo"   />
+	<setvar name="video16_sortorder" value="16"   />
+
+	<setvar name="video17_name" value="83520" />
+	<setvar name="video17_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/07/Screen-shot-2015-07-30-at-11.30.25-PM-197x135.png" />
+	<setvar name="video17_sharelink" value=""  />
+	<setvar name="video17_infolink" value=""   />
+	<setvar name="video17_comment" value="" />
+	<setvar name="video17_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video17_action" value="gotokalturavideo"   />
+	<setvar name="video17_sortorder" value="17"   />
+
+	<setvar name="video18_name" value="95644" />
+	<setvar name="video18_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/11/Screen-shot-2015-11-08-at-7.55.15-PM-197x135.png" />
+	<setvar name="video18_sharelink" value=""  />
+	<setvar name="video18_infolink" value=""   />
+	<setvar name="video18_comment" value="NIKE SB CHRONICLES, VOL. 2 | EXTRAS | THEOTIS BEASLEY" />
+	<setvar name="video18_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video18_action" value="gotokalturavideo"   />
+	<setvar name="video18_sortorder" value="18"   />
+
+	<setvar name="video19_name" value="95501" />
+	<setvar name="video19_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/11/Screen-shot-2015-11-06-at-1.17.26-PM-197x135.png" />
+	<setvar name="video19_sharelink" value=""  />
+	<setvar name="video19_infolink" value=""   />
+	<setvar name="video19_comment" value="HELLACLIPS EXCLSUIVE &#8211; SHOWROOM B-SIDE EDIT" />
+	<setvar name="video19_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/0_3sbyj309?wid=_1741222&amp;iframeembed=true&amp;entry_id=0_3sbyj309"   />
+	<setvar name="video19_action" value="gotokalturavideo"   />
+	<setvar name="video19_sortorder" value="19"   />
+
+	<setvar name="video20_name" value="95501" />
+	<setvar name="video20_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/11/Screen-shot-2015-11-06-at-1.17.26-PM-197x135.png" />
+	<setvar name="video20_sharelink" value=""  />
+	<setvar name="video20_infolink" value=""   />
+	<setvar name="video20_comment" value="HELLACLIPS EXCLSUIVE &#8211; SHOWROOM B-SIDE EDIT" />
+	<setvar name="video20_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/0_3sbyj309?wid=_1741222&amp;iframeembed=true&amp;entry_id=0_3sbyj309"   />
+	<setvar name="video20_action" value="gotokalturavideo"   />
+	<setvar name="video20_sortorder" value="20"   />
+
+	<setvar name="video_name" value="94886" />
+	<setvar name="video_thumb" value="https://www.hellaclips.com/wp-content/uploads/2015/11/Screen-shot-2015-11-01-at-10.45.38-PM-197x135.png" />
+	<setvar name="video_sharelink" value=""  />
+	<setvar name="video_infolink" value=""   />
+	<setvar name="video_comment" value="" />
+	<setvar name="video_url" value="http://cdnapisec.kaltura.com/html5/html5lib/v2.28/mwEmbedFrame.php/p/1741222/uiconf_id/31805682/entry_id/?wid=_1741222&amp;iframeembed=true&amp;entry_id="   />
+	<setvar name="video_action" value="gotokalturavideo"   />
+	<setvar name="video_sortorder" value=""   />
+	
+    
+</runscript>

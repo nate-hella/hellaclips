@@ -1,0 +1,156 @@
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+ 
+/* Toggle Styles */
+/* This sidebar modified by seegatesite.com */
+ @font-face{
+    font-family: RamseyScript;
+    src: url('RamseyScript.ttf'),
+    url('RamseyScript.ttf'); /* IE */
+} 
+ 
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+    .fixed-brand{
+    width: 250px;
+}
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+ 
+    #sidebar-wrapper {
+        width: 250px;
+    }
+ 
+    #wrapper.toggled #sidebar-wrapper {
+        width: 250px;
+    }
+    #wrapper.toggled-2 #sidebar-wrapper {
+        width: 50px;
+    }
+    #wrapper.toggled-2 #sidebar-wrapper:hover {
+        width: 250px;
+    }
+ 
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+         -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    }
+ 
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+        padding-left: 250px;
+ 
+    }
+        #wrapper.toggled-2 #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+        margin-left: -200px;
+         -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+}
+
+
+
+
+
+#site-wrapper {
+    margin-left: 60px;
+}
+
+
+#leftmenu{
+    left: -250px;
+}
+
+#site-menu {
+    width: 300px;
+    z-index: 100;
+    border: 1px solid #1c1c1f;
+    background-color: #191919;
+    height: 100%;
+    position: fixed;
+    padding: 15px;
+    top:0;
+    -webkit-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+.menuLeft ul{
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.menuLeft ul li a {
+    display: block;
+    padding: 1em 1em 1em 1.2em;
+    outline: none;
+    box-shadow: inset 0 -1px rgba(0,0,0,0.2);
+    color: #f3efe0;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px rgba(255,255,255,0.1);
+    letter-spacing: 1px;
+    font-weight: 400;
+    -webkit-transition: background 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    font-family: RamseyScript;
+
+}
+
+.menuLeft ul li a:hover   {
+    background: rgba(0,0,0,0.2);
+    box-shadow: inset 0 -1px rgba(0,0,0,0);
+    color: #fff;
+    z-index: 1000;
+}
+
+
+#site-canvas {
+  width: 100%;
+  height: 100%;
+ margin-left: 10%;
+  position: relative;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+
+#site-menu.show-nav {
+  -webkit-transform: translateX(250px);
+  transform: translateX(250px);
+}
+
+#big-sexy{
+  width: 50px;
+margin-bottom: -5px;
+font-size: 35px;
+display: inline-block;
+color: orange;
+float: right;
+}
+
+.toggle-nav{
+    color: orange;
+}
+
+
+
+

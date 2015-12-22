@@ -1,0 +1,143 @@
+/* Styles for the CoverPop.js plugin */
+
+
+html,
+body {
+    overflow: auto;
+}
+
+body {
+    position: relative;
+}
+
+.CoverPop-open,
+.CoverPop-open body {
+    overflow: hidden;
+}
+
+#CoverPop-cover {
+    display: none;
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1040;
+    -webkit-animation: fade-in .25s ease-in;
+    -moz-animation-name: fade-in .25s ease-in;
+    -ms-animation-name: fade-in .25s ease-in;
+    -o-animation-name: fade-in .25s ease-in;
+    animation-name: fade-in .25s ease-in;
+}
+
+.CoverPop-open #CoverPop-cover {
+        display: block;
+}
+
+
+@-webkit-keyframes fade-in {
+    0% { opacity: 0; }
+    25% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.splash {
+	background:#000 url("../img/LAKAI_riley_bg.jpg") top center fixed no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover
+}
+
+.splash-center {
+    max-width: 650px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    bottom: 0px;
+    padding-top: 22%;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 100%;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 50%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    margin: 0 auto 25px auto;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.enter-hella {
+        width:200px;
+        height:62px;
+        color: black;
+        font-family:'Lato', sans-serif;
+        font-weight:700;
+        line-height:60px;
+        text-decoration:none;
+        font-size:24px;text-align:center;
+        position: relative;
+        z-index: 2000;
+        margin: 10px auto;
+       
+}
+
+.enter-hella:hover{
+    background: rgba(0, 0, 0, 0.2);
+}
+.closeButton{
+    width: 100%;
+}
+
+.bottom-logos{
+    max-width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+@media (max-width: 500px) {
+
+.enter-hella{
+    \height: 70px;
+    position: fixed;
+    background-color: #FF5050;
+    bottom: 2px;
+    left: 0;
+    padding:0 70px 0 70px;
+    margin:0;
+    width: 100%;
+}
+.splash-center{
+    padding-top: 1%;
+}
+.CoverPop-close {
+    padding-bottom: 0px;
+    padding-top: 0;
+    max-width: 100px;
+}
+.closeButton{
+    width: 70%;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+.splash-center{
+    max-width: 100%;
+}
+
+}
+
+    }
+

@@ -1,0 +1,208 @@
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus{
+    outline: none;
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* FlexSlider Necessary Styles */
+.flexslider{
+    margin: 0;
+    padding: 0;
+}
+
+.flexslider{
+    .slides{
+        li{
+            display: none;
+            -webkit-backface-visibility: hidden;
+        }
+    }
+}
+
+.flexslider{
+    .slides{
+        &:after{
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+        }
+        img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .caption{
+            color: $light-text-color;
+            padding: 1rem;
+            font-size: 1rem;
+            text-transform: uppercase;
+            background: none;
+        }
+    }
+}
+
+html[xmlns]{
+    .slides {
+        display: block;
+    }
+}
+
+*{
+    html{
+        .slides{
+            height: 1%;
+        }
+    }
+}
+
+/* No JavaScript Fallback */
+.no-js{
+    .slides{
+        li{
+            &:first-child{
+                display: block;
+            }
+        }
+    }
+}
+
+/* FlexSlider Default Theme */
+.flexslider{
+    position: relative;
+    zoom: 1;
+}
+
+.flex-viewport{
+    max-height: 2000px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.loading{
+    .flex-viewport{
+        max-height: 300px;
+    }
+}
+
+.flexslider{
+    .slides{
+        zoom: 1;
+    }
+}
+
+.carousel{
+    li{
+        margin-right: 5px;
+    }
+}
+
+/* Direction Nav */
+.flex-direction-nav{
+    *height: 0;
+}
+
+.flex-direction-nav{
+    a {
+        text-decoration:none;
+        text-align: center;
+        display: block;
+        width: 30px;
+        height: 65px;
+        border-radius: 1px;
+        line-height: 65px;
+        margin: -30px 0 0;
+        position: absolute;
+        top: 50%;
+        z-index: 10;
+        overflow: hidden;
+        cursor: pointer;
+        color: white;
+        background: rgba(0,0,0,.4);
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        transition: all .3s ease;
+        &:hover{
+            background: rgba(0,0,0,.7);
+        }
+        &:before{
+            content: '\f104';
+            font-family: "FontAwesome"; 
+            font-size: 25px; 
+            line-height: 65px; 
+            display: inline-block; 
+        }
+    }
+    .flex-prev{
+        left: 20px;
+    }
+    .flex-next{
+        right: 20px;
+    }
+    .flex-disabled{
+        opacity: 0 !important;
+        filter:alpha(opacity=0);
+        cursor: default; 
+    }
+    a.flex-next:before{
+        content: '\f105';
+    }
+}
+
+.flex-control-nav{
+    display: none;
+}
+.metaslider .flexslider {
+    margin: 0 0 5px 0 !important;
+}
+.owl-carousel{
+    padding: 0 20px 0 10px !important;
+    .owl-item{
+        height: 227px;
+        width: 100%;
+        margin: 6px;
+     img{
+        display: block;
+        width: 100%;
+        height: auto;
+     }
+     .slidewrapper{
+        position: absolute;
+        padding: 100px 0 0 0;
+        top: 100px;
+        bottom: -6px;
+        left: 0;
+        right: 0;
+        &:hover{
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjExJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjA5Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjIzJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU5JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjciLz4KICAgIDxzdG9wIG9mZnNldD0iNzclIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuOTEiLz4KICAgIDxzdG9wIG9mZnNldD0iODklIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+        background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 11%, rgba(0, 0, 0, 0.21) 23%, rgba(0, 0, 0, 0.7) 59%, rgba(0, 0, 0, 0.91) 77%, rgba(0, 0, 0, 1) 89%, rgba(0, 0, 0, 1) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(11%, rgba(0, 0, 0, 0.09)), color-stop(23%, rgba(0, 0, 0, 0.21)), color-stop(59%, rgba(0, 0, 0, 0.7)), color-stop(77%, rgba(0, 0, 0, 0.91)), color-stop(89%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(0, 0, 0, 1)));
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 11%, rgba(0, 0, 0, 0.21) 23%, rgba(0, 0, 0, 0.7) 59%, rgba(0, 0, 0, 0.91) 77%, rgba(0, 0, 0, 1) 89%, rgba(0, 0, 0, 1) 100%);
+        background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 11%, rgba(0, 0, 0, 0.21) 23%, rgba(0, 0, 0, 0.7) 59%, rgba(0, 0, 0, 0.91) 77%, rgba(0, 0, 0, 1) 89%, rgba(0, 0, 0, 1) 100%);
+        background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 11%, rgba(0, 0, 0, 0.21) 23%, rgba(0, 0, 0, 0.7) 59%, rgba(0, 0, 0, 0.91) 77%, rgba(0, 0, 0, 1) 89%, rgba(0, 0, 0, 1) 100%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 11%, rgba(0, 0, 0, 0.21) 23%, rgba(0, 0, 0, 0.7) 59%, rgba(0, 0, 0, 0.91) 77%, rgba(0, 0, 0, 1) 89%, rgba(0, 0, 0, 1) 100%);
+        border-bottom: solid 6px #f3a22b;
+        }
+    }
+     }
+ #playSlide{
+    position: absolute;
+    margin-left: 44%;
+    bottom: 75px;
+    font-size: 7em;
+    color: black;
+}}

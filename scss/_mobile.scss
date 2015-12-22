@@ -1,0 +1,156 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+   }
+ }
+@media (max-width: 767px) {
+    /* Search */
+    .hc-navbar-form{
+        @include border-radius(0);
+    }
+    #s{
+        width: 10%
+    }
+    #search{
+        width: 90%
+    }
+    /* feature slider */
+    .home-media,
+    .media{
+        padding-top: 50px !important;
+    }
+
+    /* Page header */
+    #page-header{
+        background: none;
+    }
+
+    /* submit page */
+
+    .submit-btn{
+        width: 100% !important;
+    }
+}
+    @media (min-width: 992px) {
+        .ngg-gallery-thumbnail img{
+        width: 195px;
+        height: 140px;
+    }
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+.entry img {
+  height: 117px;
+}
+.col-md-8{
+  padding-bottom: 15px;
+}
+#search-2{
+  width: 305px;
+}
+.entry-title{
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+}
+.entry-exerpt{
+  line-height: 12px;
+}
+.entry {
+  min-height: 260px;
+  max-height: 250px;
+  margin-bottom: -60px;
+}
+.sidebar{
+	display: block;
+	margin: 0 auto;
+}
+}
+@media (min-width: 1200px) {
+    .ngg-gallery-thumbnail img{
+   width: 241px;
+   height: 180px;
+   }
+}
+@media (max-width: 991px) {
+    /* Logo round*/
+    .header-logo{
+    width: 252px;
+    }
+
+   .ngg-gallery-thumbnail img{
+   width: 231px;
+   height: 180px;
+   }
+.metaslider{
+   padding-top: 50px;
+ }
+}
+
+@media (max-width: 768px){
+    .home-media,
+    .media{
+        padding: 220px 0 20px 0;
+    }
+    .hc-widget .tptn_after_thumb{
+    width: 220px;
+      a{
+        width: 220px;}
+    }
+    .metaslider{
+      padding-top: 10px;
+    } 
+    .sidebar{
+      border: none;
+      width: 320px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+}
+
+@media only screen and(min-width: 992px) and (max-width: 1199px){
+ .hc-widget .tptn_after_thumb{
+    width: 192px;
+      a{
+        width: 192px;}
+    }
+  .tptn_link{
+    height: 60px;
+  .tptn_thumb{
+    height: 60px;
+    }
+  }
+    .hc-widget-sidekick{
+      img{
+        max-width: 120px;
+        height: 60px;
+        }
+      a.tptn_link{
+        width: 120px;
+        height: 60px;
+        }
+      .tptn_after_thumb{  
+        .tptn_title{
+          font-size: .7em;
+          font-weight: 400;
+          }
+        a{
+          margin-left: -36px;
+          width: 163px;
+          }
+      }
+      li{
+        height: 60px;
+        }
+      ul{
+        height: 280px;
+        }
+  }
+    #ad-content-sidebar{
+      width: 320px;
+    }
+  .entry{
+    min-height: 262px;
+  }
+  
+}

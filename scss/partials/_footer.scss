@@ -1,0 +1,26 @@
+footer{
+    padding: 20px;
+    color: $light-text-color;
+    background: black;
+    h4{
+        color: $light-text-color;
+    }
+    a{
+        color: $light-link-color;
+        &:hover{
+            color: $main-blue;
+            text-decoration: none;
+        }
+    }
+}
+
+.sub-footer-ad{
+    margin-top: 40px;
+    padding: 20px;
+    background: $dark-text-color;
+}
+
+.footer-columb{
+    padding-left: 0px;
+    padding-top: 15px;
+}

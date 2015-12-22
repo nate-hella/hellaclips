@@ -1,0 +1,71 @@
+ @font-face{
+    font-family: RamseyScript;
+    src: url('RamseyScript.ttf'),
+    url('RamseyScript.ttf'); /* IE */
+} 
+
+#offcanvas {
+    border: 1px solid #1c1c1f;
+    background-color: #191919;
+    left: -200px;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+}
+.menuLeft{
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 260px;
+        z-index: 2;
+    }
+
+.offcanvas {
+		display: inline-block;;
+      
+		.big-sexy {
+			width: 50px;
+   			font-size: 35px;
+   			margin: 10px auto;
+    		color: orange;
+    		float: right;
+    	}	
+	}
+
+#search-wrapper{
+    width: 260px;
+    z-index: 1;
+    left: -200px;
+    position: fixed;
+    top: 50px;
+    height: 100%;
+    background:rgba(255,255,255,0.5);
+    border:1px solid #d9d9d9;
+    box-shadow: 0px 1px 20px rgba(0,0,0,0.1);
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    &.show-nav{
+    -webkit-transform: translateX(260px);
+    transform: translateX(260px);
+    }}
+
+#offcanvas, #main{
+&.show-nav{
+ -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  }
+}
+
+#ajaxsearchlite1, #ajaxsearchlite{
+    .probox{
+        background-color: white !important;
+        background-image: radial-gradient(ellipse at center, rgb(255, 255, 255), rgb(255, 255, 255)) !important;
+    } 
+    .proinput input{
+        color: rgb(29, 29, 29) !important;
+    }
+    }
+
+
