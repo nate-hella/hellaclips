@@ -53,6 +53,14 @@ $slim:    100;
 .font-weight-light  { font-weight:   $light; }
 .font-weight-slim   { font-weight:    $slim; }
 
+//import ramsey script 
+
+ @font-face{
+    font-family: RamseyScript;
+    src: url('RamseyScript.ttf'),
+    url('RamseyScript.ttf'); /* IE */
+} 
+
 h2{
     font-size: 2.02736rem;
     line-height: 2.14286rem;
@@ -73,6 +81,10 @@ html{
 
 .sidebar{
     border-left: 1px solid $dark-text-color;
+}
+
+#site-wrapper{
+    margin-left: 60px;
 }
 
 #main.container {

@@ -21,7 +21,7 @@
       <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
   <meta property="og:image" content="<?php echo $image[0]; ?>"> <?php endif; ?>
   <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
-  <link rel="stylesheet" href="<?php if (is_home()) {echo get_stylesheet_directory_uri();?>/css/CoverPop.css"/><?php } ?> 
+  <link rel="stylesheet" href="<?php if (is_home()) {echo get_stylesheet_directory_uri();?>/css/CoverPop-mobile.css"/><?php } ?> 
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/css/simple-sidebar.css"/>
   <script src=" <?php echo get_stylesheet_directory_uri(); ?>/js/CoverPop.js"></script>  
   <link rel="profile" href="https://gmpg.org/xfn/11">

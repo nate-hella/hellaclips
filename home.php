@@ -13,7 +13,7 @@ $postnum = 0;
 
   <div id="main" class="container">
   <div class="row">
-  //<?php //echo '<div class="col-md-12" style="padding: 10px 20px 0 15px">' . do_shortcode("[metaslider id=12]") . '</div>' ?>
+  <?php echo '<div class="col-md-12" style="padding: 15px 15px 0 15px">' . do_shortcode("[metaslider id=12]") . '</div>' ?>
   <div id="owl-demo" class="owl-carousel col-md-12">
     <?php 
       $custom_query_args = array(
@@ -45,9 +45,8 @@ $postnum = 0;
           $wp_query = $temp_query;
     ?>
     <script type="text/javascript">
-    jQuery.noConflict();
-    (function ($) {
-    $(function () {
+   
+    jQuery(document).ready(function($) {
     $("#owl-demo").owlCarousel({
  
       navigation : false, // Show next and prev buttons
@@ -55,11 +54,28 @@ $postnum = 0;
       paginationSpeed : 400,
       items : 2,
       lazyLoad : true,
+      itemsDesktop: false,
+      itemsDesktopSmall : [900,2],
+      itemsTablet: [600,1],
+      itemsMobile : [479,2],
+    })
     });
-    });
-  })(jQuery);
     </script>
   </div> <!-- end .owl -->
+
+<div class="row col-md-12" style="margin-left:auto; margin-right:auto; padding:40px 0; ">
+<div id='div-gpt-ad-1414776939914-0'style='width:900px; height:350px; margin-left:auto; margin-right:auto;'>
+<script type='text/javascript'>
+          googletag.cmd.push(function() {
+          var slot1 = googletag.defineSlot("/3274935/Front_1_Big", [900, 350],
+          "div-gpt-ad-1414776939914-0").addService(googletag.pubads()); 
+          googletag.enableServices(); 
+          googletag.display('div-gpt-ad-1414776939914-0');
+          setInterval(function(){googletag.pubads().refresh([slot1]);}, 15000);
+          });
+</script>
+</div>
+</div>
 
 
 

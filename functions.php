@@ -23,10 +23,6 @@ if ( ! is_admin() ) {
         wp_register_style( 'bootstrap-styles', 'https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css', array(), '3.1.1', 'all' );
         wp_enqueue_style( 'bootstrap-styles' );
 
-        //jasny bootstrap
-        wp_register_style( 'jasny-styles', '//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css', array(), '3.1.1', 'all' );
-        wp_enqueue_style( 'jasny-styles' );
-
         // Theme Styles
         wp_register_style( 'theme-styles', get_template_directory_uri() . '/css/main.css', array(), '3.06.01', 'all' );
         wp_enqueue_style( 'theme-styles' );
@@ -47,26 +43,18 @@ if ( ! is_admin() ) {
 
 
     function hc_load_scripts() { // Load Javascript
-
-       // wp_register_script( 'owl-scripts', get_template_directory_uri() . '/owl/owl-carousel/owl.carousel.js', array( 'jquery'), '1.1', true);
-       // wp_enqueue_script( 'owl-scripts' );
-        // jQuery
-      //  wp_deregister_script( 'jquery' );
-      //  wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js', array(), '1.11.1', true);
-      //  wp_enqueue_script( 'jquery' );
+        
         // Bootstrap
         wp_register_script( 'bootstrap-scripts', 'https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js', array( 'jquery'), '3.1.1', true);
         wp_enqueue_script( 'bootstrap-scripts' );
-
-        // Jasny Bootstrap
-        wp_register_script( 'Jasny-scripts', '//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js', array( 'jquery'), '3.1.1', true);
-        wp_enqueue_script( 'Jasny-scripts' );
-
+        
         // Hellaclips JS
         wp_register_script( 'hc-scripts', get_template_directory_uri() . '/js/hc-main.js', array( 'jquery'), '1.1', true);
         wp_enqueue_script( 'hc-scripts' );
 
         //owl JS
+         wp_register_script( 'owl-scripts', get_template_directory_uri() . '/owl/owl-carousel/owl.carousel.js', array( 'jquery'), '1.1', true);
+        wp_enqueue_script( 'owl-scripts' );
         
 
     }
@@ -241,6 +229,37 @@ function hc_login_head() {
     remove_action('login_head', 'wp_shake_js', 12);
 }
 add_action('login_head', 'hc_login_head' );
+
+/* 
+* DETECT USER-AGENTS
+*/
+function check_user_agent ( $type = NULL ) {
+        $user_agent = strtolower ( $_SERVER['HTTP_USER_AGENT'] );
+        if ( $type == 'bot' ) {
+                // matches popular bots
+                if ( preg_match ( "/googlebot|adsbot|yahooseeker|yahoobot|msnbot|watchmouse|pingdom\.com|feedfetcher-google/", $user_agent ) ) {
+                        return true;
+                        // watchmouse|pingdom\.com are "uptime services"
+                }
+        } else if ( $type == 'browser' ) {
+                // matches core browser types
+                if ( preg_match ( "/mozilla\/|opera\//", $user_agent ) ) {
+                        return true;
+                }
+        } else if ( $type == 'mobile' ) {
+                // matches popular mobile devices that have small screens and/or touch inputs
+                // mobile devices have regional trends; some of these will have varying popularity in Europe, Asia, and America
+                // detailed demographics are unknown, and South America, the Pacific Islands, and Africa trends might not be represented, here
+                if ( preg_match ( "/phone|iphone|itouch|ipod|symbian|android|htc_|htc-|palmos|blackberry|opera mini|iemobile|windows ce|nokia|fennec|hiptop|kindle|mot |mot-|webos\/|samsung|sonyericsson|^sie-|nintendo/", $user_agent ) ) {
+                        // these are the most common
+                        return true;
+                } else if ( preg_match ( "/mobile|pda;|avantgo|eudoraweb|minimo|netfront|brew|teleca|lg;|lge |wap;| wap /", $user_agent ) ) {
+                        // these are less common, and might not be worth checking
+                        return true;
+                }
+        }
+        return false;
+}
 
 
 /**

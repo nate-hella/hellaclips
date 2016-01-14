@@ -79,12 +79,23 @@
         });
       </script>
 
-    <?php } ?>
-<?php } ?>
+<?php 
+      } 
+  } 
+   wp_footer(); 
 
-<script> 
+  //MOBILE takeover
+  $ismobile = check_user_agent('mobile');
+  if ( $ismobile ) : 
+    include 'mobile-roadblock.php';
+   
+    echo '
+    <script 
+      type="text/javascript">
+      CoverPop.start();
+      cookieName: "mobile_block"
+    </script> '; 
 
-</script>
-<?php wp_footer(); ?>
+    endif; ?>  
 </body
 </html>

@@ -1,3 +1,6 @@
+
+jQuery( document ).ready(function( $ ) {
+
 (function($){
     $(document).ready(function () {
         $(window).scroll( function () {
@@ -89,3 +92,5 @@ if ($('#search-wrapper').hasClass('show-nav')) {
 }
 //$('#site-wrapper').toggleClass('show-nav');
 }
+
+});

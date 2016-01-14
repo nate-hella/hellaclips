@@ -18,4 +18,3 @@ if (in_category('Hella Hype')) {
 }
 
 get_footer();
-?>
